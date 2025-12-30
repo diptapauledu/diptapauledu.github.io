@@ -26,9 +26,9 @@ author:
   orcid: ""
 
 # ===============================
-# THEME (IMPORTANT)
+# THEME (FIXED)
 # ===============================
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # ===============================
 # SITE BEHAVIOR
@@ -101,3 +101,4 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from

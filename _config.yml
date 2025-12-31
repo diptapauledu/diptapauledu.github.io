@@ -6,11 +6,11 @@ title: "Dipta Paul"
 title_separator: "-"
 description: "Academic portfolio of Dipta Paul"
 
-# ✅ USER PAGE CONFIG (CORRECT)
+# ✅ USER PAGE CONFIG (ROOT URL)
 url: "https://diptapauledu.github.io"
 baseurl: ""
 
-repository: "diptapauledu/diptapauldu.github.io"
+repository: "diptapauledu/diptapauledu.github.io"
 
 # ===============================
 # AUTHOR SETTINGS
@@ -29,9 +29,17 @@ author:
   orcid: ""
 
 # ===============================
-# THEME (SAFE)
+# THEME (GITHUB PAGES SAFE)
 # ===============================
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# ===============================
+# SITE BEHAVIOR
+# ===============================
+breadcrumbs: false
+future: true
+read_more: "disabled"
+words_per_minute: 160
 
 # ===============================
 # FILE HANDLING
@@ -55,6 +63,10 @@ exclude:
 markdown: kramdown
 highlighter: rouge
 
+kramdown:
+  input: GFM
+  auto_ids: true
+
 # ===============================
 # COLLECTIONS
 # ===============================
@@ -65,7 +77,7 @@ collections:
     output: true
 
 # ===============================
-# PLUGINS
+# PLUGINS (SAFE ONLY)
 # ===============================
 plugins:
   - jekyll-feed

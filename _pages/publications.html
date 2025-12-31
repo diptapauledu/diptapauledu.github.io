@@ -1,36 +1,54 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Peer-Reviewed Journal and Conference Publications
 
-{% include base_path %}
+My research work spans biomedical engineering, machine learning, intelligent systems, IoT, and applied electrical engineering. Below is a selected list of peer-reviewed journal and conference publications.
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+---
 
+### Selected Publications
 
+1. **Advanced Convolutional Neural Network Model to Identify Melanoma Skin Cancer**  
+   *Journal Article*
 
+2. **Early Detection of Breast Cancer Using Machine Learning: A Tool for Enhanced Clinical Decision Support**  
+   *Journal Article*
+
+3. **Artificial Neural Network-Aided Interpretation of Dopaminergic SPECT Images for Early Parkinson’s Disease Diagnosis**  
+   *Journal Article*
+
+4. **AI-Driven Early Detection of Skin Cancer in the USA: A Hybrid Image Processing and Neural Network Approach**  
+   *Journal Article*
+
+5. **A CNN-Driven Deep Learning Model for Accurate Stage Detection in Medical Imaging to Enhance Stroke Diagnosis**  
+   *Conference Paper*
+
+6. **IoT-Enhanced Multimodal Wearable System for Women’s Safety**  
+   *Conference Paper*
+
+7. **AI-Driven IoT-Based Smart Home Automation for Energy Efficiency and Enhanced Comfort**  
+   *Conference Paper (Accepted)*
+
+8. **A PV-Powered Microcontroller-Based Agricultural Robot Utilizing GSM Technology for Crop Harvesting and Plant Watering**  
+   *Conference Paper*
+
+9. **Techno-Economic Analysis of Integrating Wind and Battery Energy Storage into a Grid-Tied Solar PV System**  
+   *Journal Article*
+
+10. **Model Predictive Control (MPC) and PID Control for Autonomous Lane-Keeping Maneuvers: A Comparative Study**  
+    *Journal Article*
+
+---
+
+## Academic Service
+I actively serve as a peer reviewer for several international journals and conferences in engineering, computing, and applied sciences, contributing to the maintenance of high scholarly standards.
+
+---
+
+## Notes
+A complete and updated list of publications, including indexing and publisher details, is available upon request.

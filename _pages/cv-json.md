@@ -1,4 +1,8 @@
 ---
+published: false
+---
+
+---
 layout: archive
 title: "CV"
 permalink: /cv-json/

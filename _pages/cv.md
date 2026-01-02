@@ -1,9 +1,10 @@
 ---
 layout: single
-title: "Curriculum Vitae"
+title: "CV"
 permalink: /cv/
 author_profile: true
 ---
+
 
 ## Education
 **Bachelor of Science in Electrical & Electronic Engineering (EEE)**  

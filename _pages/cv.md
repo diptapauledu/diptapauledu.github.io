@@ -20,7 +20,7 @@ Bangladesh
 - Perform analytical troubleshooting and support data-driven decision-making in operational environments.  
 - Coordinate preventive maintenance activities to ensure system reliability and efficiency.
 
-**Operations Analyst**  
+**Operations Analyst Engineer**  
 Bangladesh  
 - Analyzed and optimized engineering and operational processes to improve efficiency and project outcomes.  
 - Supported analytical reporting and performance evaluation using structured data approaches.
